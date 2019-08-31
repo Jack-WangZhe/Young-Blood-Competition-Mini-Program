@@ -1,1 +1,24 @@
-/* pages/classic/classic.wxss */
+.chunk {
+  width: 100px;
+  height: 100px;
+}
+
+.color1 {
+  background-color: brown;
+}
+.color2 {
+  background-color: aqua;
+}
+.color3 {
+  background-color: blue;
+}
+
+.container {
+  /* 当指定一个容器是flex布局时就是弹性盒子容器 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #8b8b8b;
+  height: 400px;
+}

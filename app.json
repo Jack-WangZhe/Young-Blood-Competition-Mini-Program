@@ -3,11 +3,12 @@
     "pages/classic/classic"
   ],
   "window": {
-    "navigationBarBackgroundColor":"#000000",
-    "navigationBarTitleText": "杰克少儿编程",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "Young Blood",
     "navigationBarTextStyle": "white",
-    "navigationStyle":"default",
+    "navigationStyle": "default",
     "backgroundColor": "#D80000",
     "enablePullDownRefresh": true
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
