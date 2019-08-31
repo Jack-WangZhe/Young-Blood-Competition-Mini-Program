@@ -1,12 +1,13 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "pages/classic/classic"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "navigationBarBackgroundColor":"#000000",
+    "navigationBarTitleText": "杰克少儿编程",
+    "navigationBarTextStyle": "white",
+    "navigationStyle":"default",
+    "backgroundColor": "#D80000",
+    "enablePullDownRefresh": true
   }
 }
