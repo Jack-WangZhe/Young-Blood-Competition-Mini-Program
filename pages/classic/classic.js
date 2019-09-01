@@ -5,14 +5,32 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    name: 'Jack'
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    console.log(this.data.name);
+    wx.request({
+      url: 'http://localhost:8000/classic/latest',
+      data: {},
+      method: 'GET', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
+      // header: {}, // 设置请求的 header
+      success:(res) => {
+        // success 回调函数
+        console.log(res);
+        console.log(this.data.name)
+      },
+      fail:() => {
+        // fail 回调函数
+      },
+      complete:() => {
+        // complete 回调函数
+        console.log('响应结束');
+      }
+    })
   },
 
   /**
